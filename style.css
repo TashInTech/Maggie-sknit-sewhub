@@ -11,6 +11,8 @@ display: flex;
 flex-direction: column;
 scroll-behavior:smooth;
 overflow-x: hidden;
+background-color: #ffffff !important;
+color: #000000 !important;
 }
 
 .navbar{
@@ -271,4 +273,10 @@ color: white;
 padding:40px;
 }
 
+}
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+    }
 }
